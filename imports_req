@@ -1,0 +1,6 @@
+required packages for databricks uri to work : 
+pip install python-dotenv pydantic langchain-google-genai langchain-community langchain
+pip install databricks-sql-connector[sqlalchemy]   ==>hope not required
+pip install databricks-sql-connector      ==>not required
+pip install databricks-sqlalchemy
+pip install databricks-sqlalchemy~=1.0   ==>not required 1.0 ..
